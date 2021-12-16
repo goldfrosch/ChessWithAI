@@ -10,7 +10,6 @@ class AIChessUtils {
       selectScore: 0,
       targetScore: 0,
     };
-
     //각 말마다 최적화된 값을 도출함
     //킹, 퀸, 비숍, 룩, 나이트, 폰 순서대로 우선순위를 정해 최대한
     //등급이 낮은 폰이나 나이트로 적을 잡게 한다.
@@ -370,11 +369,21 @@ class AIChessUtils {
         }
       }
     }
+    console.log(AIData);
     return AIData;
   }
   //플레이어가 AI의 말을 죽일 수 있는지에 대한 결과 값을
   //return함으로써 해당 말이 위험한가 아닌가를 측정함
-  CheckIfIDied() {}
+  CheckIfIDied(data: ChessType[][], location: number[]) {
+    for(let i = 0; i < data.length;i++) {
+      for(let j = 0;j < data[i].length;j++) {
+        if(data[i][j].team === "white") {
+          console.log(data[i][j]);
+        }
+      }
+    }
+  }
+
   GetGridData(
     selectY: number,
     selectX: number,
