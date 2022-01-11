@@ -1,6 +1,6 @@
-import { ChessType } from "types/ChessType";
+import { ChessType } from "../types/ChessType";
 
-import WhiteKing from "assets/white/white_king.png";
+import WhiteKing from "../assets/white/white_king.png";
 import WhiteQueen from "assets/white/white_queen.png";
 import WhiteBishop from "assets/white/white_bishop.png";
 import WhiteRook from "assets/white/white_rook.png";

@@ -1,4 +1,4 @@
-import { ChessType } from "types/ChessType";
+import { ChessType } from "../types/ChessType";
 
 //체스 말 처음 데이터
 export const ChessBoardItems: ChessType[][] = [

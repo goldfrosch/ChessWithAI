@@ -1,4 +1,4 @@
-import { ChessType, IChessAIOption } from "types/ChessType";
+import { ChessType, IChessAIOption } from "../types/ChessType";
 import ChessItemUtils from "./ChessItemUtils";
 
 class AIChessUtils {

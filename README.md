@@ -1,10 +1,9 @@
-#Deluxe Chess with AI .v1
+# Deluxe Chess with AI .v1
 
-디럭스 체스 v1은 미친AI버전으로 앞뒤생각 안하고 엔티티를 잡는데
-가장 혈안이 되어있는 AI입니다.
+Deluxe Chess is Simple Chess with plus rule!
 
-어떠한 도움이나 참고없이 직접 만들었다라는거에 초점을 두고있습니다!
+It has new rules of deluxe bomb
 
-자유롭게 참고하셔도 좋습니다
+If you catch some enemy chess piece, summon bomb and if you catch bomb it kill your piece and kill all enemy piece with your chess piece type!
 
-소요시간: 5일
+Enjoy!

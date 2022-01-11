@@ -1,9 +1,9 @@
-import { ChessBoardItems } from "constants/ChessItem";
+import { ChessBoardItems } from "../constants/ChessItem";
 import React, { useState } from "react";
 import styled from "styled-components";
-import { ChessType, IChessAIOption, IChessOption } from "types/ChessType";
-import AIChessUtils from "utils/AIChessUtils";
-import ChessItemUtils from "utils/ChessItemUtils";
+import { ChessType, IChessAIOption, IChessOption } from "../types/ChessType";
+import AIChessUtils from "../utils/AIChessUtils";
+import ChessItemUtils from "../utils/ChessItemUtils";
 
 interface ChessProps {}
 const Chess: React.FC<ChessProps> = () => {
@@ -350,17 +350,17 @@ const Chess: React.FC<ChessProps> = () => {
               ))
         )}
       </div>
-      <span>현재 이동횟수: {moveNum}</span>
     </ChessBlock>
   );
 };
 
 const ChessBlock = styled.div`
   & > .board {
-    width: 640px;
-    height: 640px;
+    width: 100%;
+    height: 100%;
 
     border: 5px solid saddlebrown;
+    box-sizing: border-box;
 
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -377,7 +377,7 @@ const ChessBlock = styled.div`
 
       border: 1px solid black;
       & > img {
-        max-width: 64px;
+        width: 100%;
       }
     }
     .team {
