@@ -1,11 +1,5 @@
+import React from "react";
 import ReactDOM from "react-dom";
-import Chess from "lib/components/Chess";
-import GlobalStyle from "lib/styles/GlobalStyle";
+import "./style.css";
 
-ReactDOM.render(
-  <>
-    <GlobalStyle />
-    <Chess />
-  </>,
-  document.getElementById("root")
-);
+ReactDOM.render(<div></div>, document.getElementById("root"));
