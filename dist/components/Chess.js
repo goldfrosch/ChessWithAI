@@ -44,7 +44,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var ChessItem_1 = require("../constants/ChessItem");
 var react_1 = __importStar(require("react"));
-require("../style.css");
+require("../../style.css");
 var AIChessUtils_1 = __importDefault(require("../utils/AIChessUtils"));
 var ChessItemUtils_1 = __importDefault(require("../utils/ChessItemUtils"));
 var Chess = function () {

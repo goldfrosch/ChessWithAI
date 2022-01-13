@@ -3,19 +3,19 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var white_king_png_1 = __importDefault(require("../assets/white/white_king.png"));
-var white_queen_png_1 = __importDefault(require("../assets/white/white_queen.png"));
-var white_bishop_png_1 = __importDefault(require("../assets/white/white_bishop.png"));
-var white_rook_png_1 = __importDefault(require("../assets/white/white_rook.png"));
-var white_knight_png_1 = __importDefault(require("../assets/white/white_knight.png"));
-var white_pawn_png_1 = __importDefault(require("../assets/white/white_pawn.png"));
-var black_king_png_1 = __importDefault(require("../assets/black/black_king.png"));
-var black_queen_png_1 = __importDefault(require("../assets/black/black_queen.png"));
-var black_bishop_png_1 = __importDefault(require("../assets/black/black_bishop.png"));
-var black_rook_png_1 = __importDefault(require("../assets/black/black_rook.png"));
-var black_knight_png_1 = __importDefault(require("../assets/black/black_knight.png"));
-var black_pawn_png_1 = __importDefault(require("../assets/black/black_pawn.png"));
-var bomb_png_1 = __importDefault(require("../assets/bomber/bomb.png"));
+var white_king_png_1 = __importDefault(require("../../assets/white/white_king.png"));
+var white_queen_png_1 = __importDefault(require("../../assets/white/white_queen.png"));
+var white_bishop_png_1 = __importDefault(require("../../assets/white/white_bishop.png"));
+var white_rook_png_1 = __importDefault(require("../../assets/white/white_rook.png"));
+var white_knight_png_1 = __importDefault(require("../../assets/white/white_knight.png"));
+var white_pawn_png_1 = __importDefault(require("../../assets/white/white_pawn.png"));
+var black_king_png_1 = __importDefault(require("../../assets/black/black_king.png"));
+var black_queen_png_1 = __importDefault(require("../../assets/black/black_queen.png"));
+var black_bishop_png_1 = __importDefault(require("../../assets/black/black_bishop.png"));
+var black_rook_png_1 = __importDefault(require("../../assets/black/black_rook.png"));
+var black_knight_png_1 = __importDefault(require("../../assets/black/black_knight.png"));
+var black_pawn_png_1 = __importDefault(require("../../assets/black/black_pawn.png"));
+var bomb_png_1 = __importDefault(require("../../assets/bomber/bomb.png"));
 var ChessItemUtils = (function () {
     function ChessItemUtils() {
     }

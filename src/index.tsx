@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./style.css";
+import Chess from "deluxe-chess";
 
-ReactDOM.render(<div></div>, document.getElementById("root"));
+ReactDOM.render(<Chess />, document.getElementById("root"));
