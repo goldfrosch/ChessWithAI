@@ -13,6 +13,6 @@
     "removeComments": true,
     "typeRoots": ["index.d.ts", "node_modules/@types"]
   },
-  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts", "./assets", "./style.css"],
   "exclude": ["node_modules"]
 }

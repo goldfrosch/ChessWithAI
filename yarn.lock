@@ -3336,19 +3336,6 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
-deluxe-chess@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/deluxe-chess/-/deluxe-chess-0.1.0.tgz#ccd9754d178ade2f9414b739e5f6e04a3cbaf36b"
-  integrity sha512-bit1ePe2yySN21OCik/7UJdywJzPQM5D/AjnfnlyG6fRPwFFV8lkibTdPSMgc4aP1yItfqKUdsVvNCD1ShzczA==
-  dependencies:
-    "@testing-library/jest-dom" "^5.14.1"
-    "@testing-library/react" "^12.0.0"
-    "@testing-library/user-event" "^13.2.1"
-    react "^17.0.2"
-    react-dom "^17.0.2"
-    react-scripts "5.0.0"
-    web-vitals "^2.1.0"
-
 depd@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
